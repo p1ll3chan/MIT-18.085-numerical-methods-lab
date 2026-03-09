@@ -1,0 +1,11 @@
+# C++ compiled files
+*.out
+*.o
+
+# Python
+__pycache__/
+*.pyc
+
+# editor
+.vscode/
+.idea/
