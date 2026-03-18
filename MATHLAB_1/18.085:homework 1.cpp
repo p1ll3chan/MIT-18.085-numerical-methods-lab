@@ -43,8 +43,19 @@ int main() {
     x[n] = f[n] / b[n];
 
     for(int i=n-1;i>=1;i--)
-        x[i] = (f[i] - d[i]*x[i+1]) / b[i];
+        x[i] = (f[i] - d[i]*x[i+1]) / b[i];   // intially a[i]=0 & b[i]*x[i] + d[i]*x[i+1] = f[i]
 
     for(int i=1;i<=n;i++)
         cout << i << " " << x[i] << endl;
 }
+
+// Pending Work
+/* 
+    We still haven't made the solution output for those 4 Cases !
+*/
+//Doubts
+
+/*
+    * How is the code line -> 41 - 49 works
+    * What is the reverse loop in use here for the Back Substitution
+*/
